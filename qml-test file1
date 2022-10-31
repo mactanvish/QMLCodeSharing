@@ -5,3 +5,8 @@
   library(dplyr)
   library(splines)
 }
+country_all <- read_xlsx("country_all.xlsx", sheet = "Sheet1")#导入Excel表单
+# 以 tianjin 为例绘制时序图------------------------
+tianjin <- filter(country_all,prov == "tianjin")
+tianjin <- filter(tianjin, !(month<10&month>3)) # 寒假前后10月-次年3月
+tianjin$num <- c(1:nrow(tianjin)) # 月份的数量
