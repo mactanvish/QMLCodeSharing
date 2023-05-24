@@ -5,6 +5,7 @@ Nanjing Medical University WX's Infectious Disease Group
 1.下载所有文件到R软件工作目录下  
 2.flu&bact_proportion.R文件内代码涉及内容为流感合并细菌感染在流感患者中发生率的meta analysis    
 3.flu&bact_severity.R文件内代码涉及内容为流感合并细菌感染的患者与单独感染流感的患者之间发生严重结局的差异分析
+4.若打开.R文件中文显示乱码，选择file-Reopen with encoding-UTF-8字体即可
 ### 分析内容
 1.采用广义线性混合效应模型分析  
 2.亚组分析  
